@@ -1,6 +1,6 @@
 import React from "react";
-import swc from "/Users/Christopher/Desktop/VSCODE/Projects/Portfolio/my-project/images/1589012014218.jpeg";
-import ttp from "/Users/Christopher/Desktop/VSCODE/Projects/Portfolio/my-project/images/1519902795264.jpeg";
+import swc from "../images/1589012014218.jpeg";
+import ttp from "../images/1519902795264.jpeg";
 const Experience = () => (
   <div className="p-4 bg-blue-grayish-navy text-white flex flex-wrap justify-center">
     <h2 className="text-2xl font-bold mb-8 w-full text-center">Experience</h2>

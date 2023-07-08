@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import me from "/Users/Christopher/Desktop/VSCODE/Projects/Portfolio/my-project/images/1645612701463.jpeg";
+import me from "../images/1645612701463.jpeg";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCircleInfo } from "@fortawesome/free-solid-svg-icons";
 import { Link, animateScroll as scroll } from "react-scroll";

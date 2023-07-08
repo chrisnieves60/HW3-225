@@ -59,8 +59,8 @@ const Skills = () => {
   ];
 
   return (
-    <div className="bg-gray-800">
-      <h1 className="text-2xl text-white font-bold p-4">Skills</h1>
+    <div className="bg-gray-800 ">
+      <h1 className="text-2xl text-white font-bold p-4 pl-14">Skills</h1>
       <section className="p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="shadow-md p-6 bg-gray-300 rounded-lg flex flex-col items-center space-y-3">
           <div className="flex items-center space-x-2">

@@ -1,4 +1,4 @@
-import GGCPhoto from "/Users/Christopher/Desktop/VSCODE/Projects/Portfolio/my-project/images/Screen Shot 2023-07-02 at 6.23.01 PM.png";
+import GGCPhoto from "../images/Screen Shot 2023-07-02 at 6.23.01 PM.png";
 const Projects = () => {
   return (
     <section className="p-4 bg-blue-grayish-navy" id="projects-section">
@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="border-2 border-white w-7/8 mx-auto m-5 flex items-center bg-gray-100 rounded-lg shadow">
         <img src={GGCPhoto} alt="Project" className="w-1/3" />
         <div className="p-6">
-          <h1 className="text-xl text-black">NBA Card Collecting</h1>
+          <h1 className="text-xl text-black font-bold">NBA Card Collecting</h1>
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-500" />
           <p className="text-black">
             Full-stack web application using PostgreSQL, Express.js, React.js,

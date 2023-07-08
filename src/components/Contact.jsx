@@ -56,7 +56,7 @@ const Contact = () => {
             rows="5"
             name="message"
             id="message"
-            placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+            placeholder="Write your message here..."
             required=""
             className="w-full px-4 py-2 border border-black rounded-lg focus:outline-none focus:border-red-700 bg-gray-800 text-white"
           ></textarea>

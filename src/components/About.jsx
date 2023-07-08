@@ -1,4 +1,3 @@
-import Me from "/Users/Christopher/Desktop/VSCODE/Projects/Portfolio/my-project/images/1645612701463.jpeg";
 const About = () => {
   return (
     <section className="bg-gray-800 text-white py-10" id="about-section">
