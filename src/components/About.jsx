@@ -16,6 +16,43 @@ const About = () => {
               always looking to expand my technical skills. Please feel free to
               explore my work and let's collaborate!
             </p>
+            <p>i didnt have a table so heres some random stuff lol </p>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>John Doe</td>
+                  <td>25</td>
+                  <td>john@example.com</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jane Doe</td>
+                  <td>30</td>
+                  <td>jane@example.com</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Emily Smith</td>
+                  <td>22</td>
+                  <td>emily@example.com</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>Chris Evans</td>
+                  <td>35</td>
+                  <td>chris@example.com</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
