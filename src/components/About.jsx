@@ -16,7 +16,7 @@ const About = () => {
               always looking to expand my technical skills. Please feel free to
               explore my work and let's collaborate!
             </p>
-            <p>i didnt have a table so heres some random stuff lol </p>
+            <p>i didnt have a table so heres some random stuff </p>
             <table border="1">
               <thead>
                 <tr>
@@ -53,6 +53,16 @@ const About = () => {
                 </tr>
               </tbody>
             </table>
+            <ol>
+              <li>First item</li>
+              <li>Second item</li>
+              <li>Third item</li>
+            </ol>
+            <ul>
+              <li>Apple</li>
+              <li>Banana</li>
+              <li>Cherry</li>
+            </ul>
           </div>
         </div>
       </div>
