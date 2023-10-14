@@ -1,0 +1,33 @@
+/* Styles for Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* creates 4 columns of equal width */
+    gap: 10px; /* adds some space between rows and columns */
+    margin: 20px; /* just to give some space */
+  }
+  
+  .header {
+    display: contents; /* helps with semantic markup but doesn't affect layout */
+  }
+  
+  .header > div {
+    font-weight: bold; /* makes header text bold */
+    background-color: #dddddd; /* a light grey background for header */
+  }
+  
+  .row > div {
+    border: 1px solid #000; /* add borders to cells */
+    padding: 10px; /* some space inside cells */
+  }
+  
+  /* Styles for lists */
+  ol {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  /* Consider adding more styles for colors, fonts, responsiveness, etc. */

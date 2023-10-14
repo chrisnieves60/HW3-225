@@ -1,3 +1,4 @@
+import "../styles.css" 
 const About = () => {
   return (
     <section className="bg-gray-800 text-white py-10" id="about-section">
@@ -17,52 +18,39 @@ const About = () => {
               explore my work and let's collaborate!
             </p>
             <p>i didnt have a table so heres some random stuff </p>
-            <table border="1">
-              <thead>
-                <tr>
-                  <th>ID</th>
-                  <th>Name</th>
-                  <th>Age</th>
-                  <th>Email</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>John Doe</td>
-                  <td>25</td>
-                  <td>john@example.com</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Jane Doe</td>
-                  <td>30</td>
-                  <td>jane@example.com</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Emily Smith</td>
-                  <td>22</td>
-                  <td>emily@example.com</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Chris Evans</td>
-                  <td>35</td>
-                  <td>chris@example.com</td>
-                </tr>
-              </tbody>
-            </table>
-            <ol>
-              <li>First item</li>
-              <li>Second item</li>
-              <li>Third item</li>
-            </ol>
-            <ul>
-              <li>Apple</li>
-              <li>Banana</li>
-              <li>Cherry</li>
-            </ul>
+            <div class="container">
+  <div class="header">
+    <div>ID</div>
+    <div>Name</div>
+    <div>Age</div>
+    <div>Email</div>
+  </div>
+  <div class="row">
+    <div>1</div>
+    <div>John Doe</div>
+    <div>25</div>
+    <div>john@example.com</div>
+  </div>
+  <div class="row">
+    <div>2</div>
+    <div>Jane Doe</div>
+    <div>30</div>
+    <div>jane@example.com</div>
+  </div>
+
+</div>
+
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Cherry</li>
+</ul>
           </div>
         </div>
       </div>
